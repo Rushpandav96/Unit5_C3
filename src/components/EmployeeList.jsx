@@ -27,6 +27,10 @@ export const EmployeeList = () => {
             className="employee_card"
             style={{
               display: "flex",
+              flexDirection: "column",
+              margin: "3em",
+              height: "300px",
+              width: "300px",
             }}
           >
             <img src={e.image} alt="image" className="employee_image" />
